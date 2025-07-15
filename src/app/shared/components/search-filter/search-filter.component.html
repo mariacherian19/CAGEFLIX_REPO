@@ -1,0 +1,12 @@
+<div class="search-container">
+  <input
+    aria-label="Search movies"
+    type="text"
+    [(ngModel)]="searchQuery"
+    (ngModelChange)="onSearchChange()"
+    placeholder="Search movies..."
+  />
+  <button *ngIf="searchQuery" (click)="clearSearch()" class="clear-btn">
+    ×
+  </button>
+</div>

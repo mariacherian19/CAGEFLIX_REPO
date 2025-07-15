@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Reset & Base Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap");
+
+:root {
+  --font-primary: "Manrope", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
+
+* {
+  font-family: var(--font-primary);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1a1818;
+  color: white;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background: #141414;
+  z-index: 100;
+  display: flex;
+}
+
+.logo {
+  color: #e50914;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.movie-page {
+  padding-top: 70px;
+  padding: 15px;
+}

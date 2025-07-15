@@ -1,0 +1,17 @@
+<div class="movie-page">
+  <app-search-filter></app-search-filter>
+  <main>
+    <section
+      *ngFor="let genre of genres; trackBy: trackByGenre"
+      class="genre-section"
+    >
+      <h2>{{ genre }} Movies</h2>
+      <div class="movie-row">
+        <app-movie-card
+          *ngFor="let movie of moviesByGenre[genre]; trackBy: trackByMovie"
+          [movie]="movie"
+        ></app-movie-card>
+      </div>
+    </section>
+  </main>
+</div>

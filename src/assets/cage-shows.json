@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tt0246354",
+    "type": "tvSeries",
+    "title": "Very Important Pennis",
+    "year": "1996",
+    "runtime": "30",
+    "genres": ["Comedy"],
+    "coActors": [],
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTAyYWViMzMtYzM3MS00Y2Y5LWE5OWMtZGQ4YTk1YjRkNTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "[No description available in IMDb datasets]"
+  },
+  {
+    "id": "tt0315677",
+    "type": "tvSeries",
+    "title": "HypaSpace",
+    "year": "2002",
+    "runtime": "25",
+    "genres": ["Documentary"],
+    "coActors": [],
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWFlMDJlZjgtMTFiZC00YzFlLWI3MmItMDFkM2RjMTZlZDJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "[No description available in IMDb datasets]"
+  },
+  {
+    "id": "tt13060064",
+    "type": "tvSeries",
+    "title": "Highfire",
+    "year": "\\N",
+    "runtime": "\\N",
+    "genres": ["Action", "Adventure", "Crime"],
+    "coActors": [],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOhdC_3PJ5ZK5e3zNKo2z4A4GyCK49F1Gt5Q&s",
+    "description": "[No description available in IMDb datasets]"
+  }
+]

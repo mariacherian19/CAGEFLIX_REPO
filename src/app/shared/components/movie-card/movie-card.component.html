@@ -1,0 +1,21 @@
+<div class="movie-grid">
+  <div class="movie-card">
+    <img
+      [src]="movie.imageUrl"
+      [alt]="movie.title"
+      class="movie-image"
+      (error)="movie.imageUrl = 'assets/fallback.jpg'"
+    />
+    <div class="movie-details">
+      <h3>{{ movie.title }} ({{ movie.year }})</h3>
+      <p class="description">{{ movie.description }}</p>
+      <div class="genres">
+        <span
+          *ngFor="let g of movie.genres; trackBy: trackByGenre"
+          class="genre-tag"
+          >{{ g }}</span
+        >
+      </div>
+    </div>
+  </div>
+</div>
