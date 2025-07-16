@@ -26,6 +26,7 @@ Download and save the following dataset files in the scripts/dataset folder:
 Run the Script: The Node.js script will automatically process these datasets and generate the JSON files, which will then be saved in the assets folder as 'cage-movies.json' and 'cage-shows.json'.
 
 TECH CHOICES:
+As per the requirements, I have implemented a responsive design featuring TV shows and movies. Additionally, integrated fuzzy search functionality to find movies based on genre, cast members, or descriptions. Also set up routers to display different types of Nicolas Cage content (movies and TV series)
 
 1. Angular (Frontend) - I chose Angular for the frontend due to its robustness and scalability. Angular provides a powerful framework for building single-page applications (SPA), with a focus on maintainability, modularity, and testability.
 
